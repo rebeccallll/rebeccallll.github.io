@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rebecca Li</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="title">Rebecca Li</h1>
+  </header>
+
+  <nav>
+    <ul class="keywords">
+      <li><a href="portfolio.html#ar-assignments">AR</a></li>
+      <li><a href="portfolio.html#vr-assignments">VR</a></li>
+      <li><a href="portfolio.html#ai-projects">AI</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="model-container">
+      <img src="path/to/your/3D/model/image" alt="3D Model Showcase">
+    </div>
+
+    <section class="intro">
+      <h2>Welcome to my personal website!</h2>
+      <p>I'm Rebecca Li, a product manager with a passion for AR, VR, and AI. This website showcases my work in these fields and provides insights into my expertise.</p>
+    </section>
+
+    <section class="portfolio">
+      <h2>Portfolio</h2>
