@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Add your head content here (e.g., title, meta tags, stylesheets) -->
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">Home</a></li>
+        <li><a href="#resume" onclick="showDownloadWindow()">Download Resume</a></li>
+        <li><a href="#portfolio">Portfolios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="content">
+      <section class="nav">
+        <canvas class="orb-canvas"></canvas>
+        <div class="overlay">
+          <div class="overlay__inner">
+            <h1>Hello!</h1>
+            <h2><span class="loader">
+              <span class="m">I</span>
+              <span class="m">T</span>
+              <span class="m">'</span>
+              <span class="m">S</span>
+              <span class="m">&nbsp;</span>
+              <span class="m">R</span>
+              <span class="m">E</span>
+              <span class="m">B</span>
+              <span class="m">E</span>
+              <span class="m">C</span>
+              <span class="m">C</span>
+              <span class="m">A</span>
+              <span class="m">&nbsp;</span>  
+              <span class="m">L</span>
+              <span class="m">I</span>
+            </span></h2>
+
+            <p class="overlay__description">Welcome to my personal website!</p>
+            <p>As a product manager, I've derived immense satisfaction from streamlining tedious tasks and crafting seamless experiences that not only meet business objectives but also delight customers.</p>
+
+            <p>Currently, I am eagerly seeking opportunities to delve into the fascinating realm of Augmented Reality. I firmly believe this emerging technology holds the potential to revolutionize how we interact with products and the world around us.</p>
+
+            <p>If you share my passion for Augmented Reality, <strong>let's connect</strong>!</p>
+          </div>
+          <div class="image-column">
+            <img src="path_to_your_image.jpg" alt="Image Description">
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section id="resume">
+    <!-- Resume content here (if you want to display it on the page) -->
+  </section>
+
+  <section id="portfolio">
+    <!-- Portfolio content here (if you want to showcase your projects) -->
+  </section>
+
+  <!-- Download resume modal -->
+  <div class="modal" id="downloadModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeDownloadWindow()">&times;</span>
+      <p>Click the button below to download my resume.</p>
+      <a href="path_to_your_resume.pdf" download class="download-button">Download Resume</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
