@@ -1,76 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <!-- Add your head content here (e.g., title, meta tags, stylesheets) -->
+    <title>Rebecca's Website</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">Home</a></li>
-        <li><a href="#resume" onclick="showDownloadWindow()">Download Resume</a></li>
-        <li><a href="#portfolio">Portfolios</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="0731_Rebecc.pdf">Download Resume</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
 
-  <section id="about">
-    <div class="content">
-      <section class="nav">
-        <canvas class="orb-canvas"></canvas>
-        <div class="overlay">
-          <div class="overlay__inner">
-            <h1>Hello!</h1>
-            <h2><span class="loader">
-              <span class="m">I</span>
-              <span class="m">T</span>
-              <span class="m">'</span>
-              <span class="m">S</span>
-              <span class="m">&nbsp;</span>
-              <span class="m">R</span>
-              <span class="m">E</span>
-              <span class="m">B</span>
-              <span class="m">E</span>
-              <span class="m">C</span>
-              <span class="m">C</span>
-              <span class="m">A</span>
-              <span class="m">&nbsp;</span>  
-              <span class="m">L</span>
-              <span class="m">I</span>
-            </span></h2>
-
-            <p class="overlay__description">Welcome to my personal website!</p>
-            <p>As a product manager, I've derived immense satisfaction from streamlining tedious tasks and crafting seamless experiences that not only meet business objectives but also delight customers.</p>
-
-            <p>Currently, I am eagerly seeking opportunities to delve into the fascinating realm of Augmented Reality. I firmly believe this emerging technology holds the potential to revolutionize how we interact with products and the world around us.</p>
-
-            <p>If you share my passion for Augmented Reality, <strong>let's connect</strong>!</p>
-          </div>
-          <div class="image-column">
-            <img src="path_to_your_image.jpg" alt="Image Description">
-          </div>
+        <div class="logos">
+            <a href="mailto:liruijia0904@gmail.com"><img src="logo/gmail.png" alt="Gmail Logo" class="logo"></a>
+            <a href="https://www.linkedin.com/in/rebecca-l-68178091/"><img src="logo/linkedIn.png" alt="LinkedIn logo" class="logo"></a>
         </div>
-      </section>
-    </div>
-  </section>
+    </header>
 
-  <section id="resume">
-    <!-- Resume content here (if you want to display it on the page) -->
-  </section>
+    <main>
+        <section id="Profile">
+            <img src="Profile/page-5.png" alt="Introduction Image" class="image">
+        </section>
 
-  <section id="portfolio">
-    <!-- Portfolio content here (if you want to showcase your projects) -->
-  </section>
+        <section id="portfolio">
+            <h1 class="title">Portfolio</h1>
+            <!-- <div class="project">
+                <h2>Marker-based interactive AR Pikachu</h2>
+                <img src="Pikachu.png" alt="profile image">
+                <p>The "Pikachu Series" is an innovative Marker-based AR product that brings Pikachu to life in the real world. Users interact through a user-friendly UI with interactive buttons for a delightful AR experience.</p>
+                <p>Keyword: Augmented Reality, Comuter vision, VFX, C#, unity</p>
+            </div> -->
 
-  <!-- Download resume modal -->
-  <div class="modal" id="downloadModal">
-    <div class="modal-content">
-      <span class="close" onclick="closeDownloadWindow()">&times;</span>
-      <p>Click the button below to download my resume.</p>
-      <a href="path_to_your_resume.pdf" download class="download-button">Download Resume</a>
-    </div>
-  </div>
+            <div class="project">
+                <h2>AI-powered J.A.R.V.I.S system</h2>
+                <img src="J.A.R.V.I.S.png" alt="project profile image"></imag>
+                <p>J.A.R.V.I.S (Just A Rather Very Intelligent System) is an interactive AI assistant based on the popular character from the Iron Man series. This product is a Unity application that utilizes the OpenAI API to create a dynamic and engaging conversation with users.</p>
+                <p>Keyword: ChatGPT, API, .Net, C#, unity, NuGet </p>
+            </div>
+        </section>
+    </main>
 
-  <script src="script.js"></script>
+
 </body>
 </html>
