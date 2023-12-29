@@ -83,7 +83,6 @@ textarea {
   /* Countdown styles */
   .container {
     color: #f1f0f0;
-    margin: auto;
     text-align: center;
     position: relative;
     z-index: 10;
@@ -92,6 +91,10 @@ textarea {
   #eventHeadline{
     font-size: 8vh;
     font-weight: bold;
+  }
+
+  #newYearContent{
+    
   }
  
   h1 {
