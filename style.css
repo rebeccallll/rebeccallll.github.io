@@ -1,8 +1,5 @@
 /* code inspired by @AllThingsSmitty & @arcs from Code pen */
 
-:root{
-    --smaller: .75;
-}
 
 * {
     box-sizing: border-box;
@@ -86,13 +83,19 @@ textarea {
   /* Countdown styles */
   .container {
     color: #f1f0f0;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     position: relative;
     z-index: 10;
   }
+
+  #eventHeadline{
+    font-size: 8vh;
+    font-weight: bold;
+  }
  
   h1 {
+    margin-top: 30vh;
     font-weight:bold;
     letter-spacing: .125rem;
     text-transform: uppercase;
@@ -101,7 +104,7 @@ textarea {
 
   body #countdown{
     align-items: center;
-    display: flex;
+    display: grid;
     font-family: -apple-system, 
     BlinkMacSystemFont, 
     'Nova Square',
